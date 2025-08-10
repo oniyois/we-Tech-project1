@@ -1,0 +1,534 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+:root{
+    --blue:  #2f6ba5;
+    --red: red;
+}
+
+.padding-24px{
+    padding: 24px 0;
+
+}
+.padding-top-24px{
+    padding-top: 24px;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 24px;
+
+   
+}
+.nav-links, a{
+    text-decoration: none;
+    padding: 0 28px;
+    color: black;
+    font-size: 24px;
+}
+
+.menu-btn{
+    display: flex;
+    flex-direction: column;
+    gap: 3.5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: whitesmoke;
+    position: relative;
+}
+.menu-btn span{
+    width: 25px;
+    height: 2.5px;
+    background-color: black;
+    display: none;
+    border-radius: 4px;
+
+}
+.hero-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 24px;
+    
+}
+.hero-text > h2{
+    font-size: 72px;
+}
+.hero-text p{
+    font-size: 24px;
+    font-weight: 300;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.btn{
+    background-color: var(--blue);
+    border-radius: 12px;
+    padding: 8px 32px;
+    color: white;
+    font-size: large;
+    margin-top: 36px;
+    width: 30%;
+    border: none;
+
+}
+.section-1{
+    padding:  16px 32px;
+   
+}
+.section1-title{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 54px;
+
+}
+
+.section1-title h4,.section2-title h4,.section3-title h4  {
+    color: blue;
+    font-weight: 100;
+}
+
+.section-1 h2, .section2-title h2, .section3-title h2{
+    font-size: 48px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 12px;
+}
+.card{
+  
+    background-color: white;
+    padding: 32px 0;
+    margin: 12px 24px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 24px;
+}
+.card-img img{
+    width: 280px;
+    
+
+}
+.card-img img:hover{
+    width: 240px;
+
+}
+.see-all{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+}
+.test-card{
+    background-color: rgb(167, 164, 164);
+    padding: 28px 16px;
+    margin: 12px 24px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+}
+.test-card-img img{
+    border-radius: 50%;
+    width: 70px;
+    
+}
+.test-card-text{
+    line-height: 36px;
+    font-size: 20px;
+    width: 100%;
+}
+.testimonial-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card-name{
+    margin-top: 16px;
+}
+
+.section-1 a{
+    margin: auto;
+    text-decoration: underline;
+    color: blue;
+    
+    text-align: center;
+}
+.section2{
+    padding-bottom: 48px;
+}
+.section2-title{
+    padding: 14px 28px;
+    margin: 48px 0;
+    
+}
+.section3{
+    background-color: white;
+    padding-top: 72px;
+
+
+}
+.section3-title{
+    padding-left: 100px;
+}
+
+
+.price-card1{
+    border: 2px solid gray;
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.price-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+    margin-top: 100px;
+}
+.price-card1-text h4 {
+    color: var(--red);
+    font-size: 24px;
+}
+.price-card1-text span {
+    font-weight: bold;
+    font-size: 68px;
+}
+
+.price-card2{
+    border: 2px solid gray;
+    width: 400px;
+    height: 300px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 219, 219);
+    position: relative;
+    overflow: hidden;
+   
+
+}
+.div-yellow{
+    background-color: orange;
+    width: 280px;
+    height: 24px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+  display: flex; 
+  align-items: center;
+  flex-direction: row; 
+  justify-content: center;
+  transform: skewY(20deg)
+  
+}
+.div-yellow > p{
+    margin-left: 76px;
+   
+    
+}
+.section3 >.p-text{
+    text-align: center;
+    margin-top: 48px;
+    font-size: 20px;
+}
+
+.section4{
+    padding: 120px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+    background-color: white;
+    align-items: center;
+    
+}
+.section4-text{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 72px;
+   
+
+}
+.section4 p{
+    padding-top: 20px;
+    width: 75%;
+    font-size: 20px;
+    line-height: 28px;
+}
+.section4 h3 {
+    font-size:28px ;
+}
+
+.name-signup, .email-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.div-signup{
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background-color:var(--blue);
+    padding: 48px 80px;
+    border-radius: 12px;
+    color: rgb(245, 236, 236);
+}
+input{
+    padding: 12px 32px;
+    border-radius: 12px;
+    border: none;
+}
+select{
+    color: var(--blue);
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+}
+.name-email{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.where-about-select{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.select-sign-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 32px;
+}
+.sign-up-btn{
+    padding: 12px 80px;
+    border-radius: 8px;
+    border: none;
+    color: var(--blue);
+    font-weight: 600;
+
+}
+input::placeholder{
+    color: var(--blue);
+    font-weight: 600;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+   background-color: white;
+    justify-content: center;
+}
+.footer-logo,.footer-contact-us,.footer-account,.footer-resources,.footer-company{
+    flex: 1;
+    padding: 48px 32px;
+}
+
+@media only screen and (max-width: 768px){
+
+
+    .nav-links{
+        display: none;
+        padding: 0;
+        margin: 0;
+        /* position: absolute;
+        top: ; */
+    }
+    .nav-links.show{
+        display: block;
+        position: absolute;
+        top:10px ;
+        flex-direction: column;
+        display: flex;
+        right: -24px;
+        padding: 10px 20px 40px 0;
+        background-color:white;
+        border-radius: 12px ;
+        border: 1px solid var(--blue);
+        align-items: stretch;
+        justify-content: left;
+        gap: 32px;
+        margin-top: 40px;
+        
+
+        
+    }
+    .hero-text h2{
+        font-size: 36px;
+        text-align: center;
+        width: 90%;
+    }
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-top: 24px;
+        
+    }
+    .hero-text p {
+        
+        text-align: center;
+    
+    }
+    
+    .hero-img img{
+        width: 250px;
+    }
+    .btn{
+        margin:  0 auto;
+        width: 40%;
+    }
+    .testimonial-cards{
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .section1-title h2, .section2-title h2{
+        font-size: 32px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+    }
+    
+    .test-card-text{
+        line-height: 24px;
+        font-size: 16px;
+        
+    }
+    .card{
+        max-width: 100%; 
+        background-color: #2f6ba5;
+        margin: 16px 0;
+    }
+    .card-img img{
+        width: 280px;
+        
+    
+    }
+    .section3-title h2{
+        text-align: left;
+        padding: 0;
+        font-size: 32px;
+        padding-right: 50px;
+      
+        
+    }
+    .price-cards{
+        display: flex;
+        flex-direction:column;
+        
+    }
+    .select-sign-btn{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 32px;
+      margin-bottom: 24px;
+    }
+    .section4-text{
+        display: flex;
+        flex-direction: column;
+    }
+    .section3 >.p-text{
+        font-size: 26px;
+    }
+    
+    .section4 p{
+        width: 100%;
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .name-email,.select-sign-btn{
+        display: flex;
+        flex-direction: column;
+    
+        
+    }
+    .price-card2, .price-card1{
+        max-width:350px ;
+        max-height: 250px;
+
+    }
+   
+    .div-signup{
+        gap: 72px;
+        padding: 24px 40px;
+        
+    }
+    .menu-btn span{
+        width: 36px;
+        height: 5.5px;
+        background-color: black;
+        display: block;
+        cursor: pointer;
+        margin-right: 24px;
+        
+    
+    }
+    input{
+        padding: 16px 4px;
+    }
+    
+    .section3 >.p-text{
+        text-align: center;
+        margin-top:0 20px;
+        font-size: 20px;
+    }
+    select{
+        padding: 12px 48px;
+       
+
+    }
+    .sign-up-btn{
+        padding: 12px 100px;
+        border-radius: 8px;
+        border: none;
+        color: var(--blue);
+        font-weight: 600;
+    
+    }
+    
+    
+    
+}
