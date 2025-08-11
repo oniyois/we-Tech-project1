@@ -8,6 +8,9 @@
     --blue:  #2f6ba5;
     --red: red;
 }
+.color-b {
+    color: var(--blue);
+}
 
 .padding-24px{
     padding: 24px 0;
@@ -35,6 +38,31 @@ nav{
     padding: 0 28px;
     color: black;
     font-size: 24px;
+}
+.nav-links >a >i{
+    color: gold;
+}
+.btn-2{
+    border-radius: 50%;
+    /* width: 100%; */
+    margin-left: 24px;
+    border: none;
+    background-color: gray;
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    margin-top: 22px;
+}
+.hero-btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.hero-btns button > i {
+    margin: 16px 16px;
+   font-size: 24px;
+
 }
 
 .menu-btn{
@@ -78,13 +106,17 @@ nav{
 }
 .btn{
     background-color: var(--blue);
-    border-radius: 12px;
-    padding: 8px 32px;
+    border-radius: 8px;
+    padding: 4px 32px;
     color: white;
     font-size: large;
     margin-top: 36px;
-    width: 30%;
+    /* width: 30%; */
     border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
 }
 .section-1{
@@ -266,6 +298,12 @@ padding-bottom: 54px;
     font-size: 20px;
 }
 
+.div1 i , .div2 i, .div3 i, .div4 i{
+    background-color: rgb(212, 205, 205);
+    border-radius: 50%;
+    padding:12px;
+
+}
 .section4{
     padding: 120px 24px;
     display: flex;
@@ -414,7 +452,7 @@ input::placeholder{
     }
     .btn{
         margin:  0 auto;
-        width: 40%;
+        
     }
     .testimonial-cards{
         display: flex;
@@ -438,7 +476,7 @@ input::placeholder{
     }
     .card{
         max-width: 100%; 
-        background-color: #2f6ba5;
+        background-color:white;
         margin: 16px 0;
     }
     .card-img img{
@@ -528,7 +566,26 @@ input::placeholder{
         font-weight: 600;
     
     }
-    
+  
+    .hero-btns{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+    .btn-2{
+        border-radius: 50%;
+       
+        margin: 0 auto;
+        border: none;
+        background-color: gray;
+        padding: 0;
+        height: 70px;
+        width: 70px;
+
+    }
     
     
 }
