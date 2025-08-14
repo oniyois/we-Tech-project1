@@ -44,13 +44,12 @@ nav{
 }
 .btn-2{
     border-radius: 50%;
-    /* width: 100%; */
     margin-left: 24px;
     border: none;
     background-color: gray;
     padding: 0;
-    height: 80px;
-    width: 80px;
+    height: 64px;
+    width: 64px;
     margin-top: 22px;
 }
 .hero-btns{
@@ -163,10 +162,24 @@ padding-bottom: 54px;
     
 
 }
+.card-price{
+   display: flex;
+   flex-direction: column;
+   gap: 42px;
+}
+.forward-a i{
+    background-color:rgb(167, 164, 164);
+    padding: 12px 12px;
+    border-radius: 50%;
+}
+.hp {
+    margin-top: 70px;
+}
 .card-img img:hover{
     width: 240px;
 
 }
+
 .see-all{
     display: flex;
     flex-direction: row;
@@ -230,7 +243,7 @@ padding-bottom: 54px;
 
 
 .price-card1{
-    border: 2px solid gray;
+    border: 2px solid rgb(167, 164, 164);
     width: 400px;
     height: 300px;
     border-radius: 12px;
@@ -258,7 +271,7 @@ padding-bottom: 54px;
 }
 
 .price-card2{
-    border: 2px solid gray;
+    border: 2px solid rgb(167, 164, 164);
     width: 400px;
     height: 300px;
     border-radius: 12px;
@@ -267,7 +280,7 @@ padding-bottom: 54px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(228, 219, 219);
+    background-color:rgb(167, 164, 164);
     position: relative;
     overflow: hidden;
    
@@ -299,9 +312,9 @@ padding-bottom: 54px;
 }
 
 .div1 i , .div2 i, .div3 i, .div4 i{
-    background-color: rgb(212, 205, 205);
+    background-color: rgb(167, 164, 164);
     border-radius: 50%;
-    padding:12px;
+    padding:12px 12px;
 
 }
 .section4{
@@ -398,15 +411,14 @@ input::placeholder{
     padding: 48px 32px;
 }
 
-@media only screen and (max-width: 768px){
+@media (max-width: 1024px) {
 
 
     .nav-links{
         display: none;
         padding: 0;
         margin: 0;
-        /* position: absolute;
-        top: ; */
+        
     }
     .nav-links.show{
         display: block;
@@ -580,7 +592,7 @@ input::placeholder{
        
         margin: 0 auto;
         border: none;
-        background-color: gray;
+        background-color:rgb(167, 164, 164);
         padding: 0;
         height: 70px;
         width: 70px;
